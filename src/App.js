@@ -7,14 +7,15 @@ import "slick-carousel/slick/slick-theme.css";
 import ProductPage from './PAGES/Product/ProductPage';
 import About from './PAGES/Extra/About';
 import Contact from './PAGES/Extra/Contact';
-import Login from './PAGES/Auth/Login';
-import Signup from './PAGES/Auth/Signup';
-import ForgotPassword from './PAGES/Auth/ForgotPassword';
-import Cart from './PAGES/Cart/Cart';
+import Login from './PAGES/Auth/Login.js';
+import Signup from './PAGES/Auth/Signup.js';
+import ForgotPassword from './PAGES/Auth/ForgetPassword';
+import Cart from './PAGES/Cart/Cart.js';
 import UserProfile from './PAGES/User/UserProfile';
 import FAQ from './PAGES/Extra/FAQ';
 import Termsandconditions from './PAGES/Extra/Termsandconditions';
 import PrivacyPolicy from './PAGES/Extra/PrivacyPolicy';
+
 const App = () => {
   return (
     <BrowserRouter>

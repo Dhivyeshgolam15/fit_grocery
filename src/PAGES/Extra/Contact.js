@@ -3,7 +3,7 @@ import SingleBanner from '../../COMPONENTS/Banners/SingleBanner'
 import Footer1 from '../../COMPONENTS/Footer/Footer1'
 import Footer2 from '../../COMPONENTS/Footer/Footer2'
 import Navbar from '../../COMPONENTS/Navbar/Navbar'
-import './Extrapages.css'
+import './ExtraPages.css'
 
 const Contact = () => {
     const [rating, setrating] = React.useState(0)

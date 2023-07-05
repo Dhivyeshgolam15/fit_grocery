@@ -10,8 +10,10 @@ import './ShippingContainer.css'
 import './PaymentContainer.css'
 import './OrderSucessfull.css'
 import { useRecoilState } from 'recoil'
-import { orderSuccessfulProvider } from '../../Providers/OrderSuccessfulProvider'
-import OrderSuccessful from '../../COMPONENTS/Order/OrderSuccessful'
+// import  { OrderSuccessful } from '../../Providers/OrderSuccessfulProvider'
+import OrderSuccessful from '../../Providers/OrderSuccessfulProvider';
+
+// import {OrderSucessfuls} from '../../COMPONENTS/Order/OrderSuccessfulProvider'
 const Cart = () => {
   const [cartdata, setcartdata] = React.useState([])
   const [subtotal, setsubtotal] = React.useState(0)
@@ -79,7 +81,7 @@ const Cart = () => {
 
 
   const [selectedorderid, setselectedorderid] = useState(0)
-  const [ordersuccesscont, setordersuccesscont] = useRecoilState(orderSuccessfulProvider)
+  const [ordersuccesscont, setordersuccesscont] = useRecoilState(OrderSuccessful)
   return (
     <div>
       <Navbar reloadnavbar={reloadnavbar} />

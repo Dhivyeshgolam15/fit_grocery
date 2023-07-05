@@ -125,3 +125,4 @@ const ProductCard = ({ data }) => {
     </div>
   )
 }
+ export default  ProductCard

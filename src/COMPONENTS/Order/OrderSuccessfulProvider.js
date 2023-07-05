@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import './Navbar.css'
+import './OrderSucessful.css'
 import logo from '../../ASSETS/logo.png'
 import Dropdown from 'react-bootstrap/Dropdown'
 import { Link } from 'react-router-dom'
-const Navbar = ({ reloadnavbar }) => {
+const OrderSucessful = ({ reloadnavbar }) => {
     const [cartquantity, setcartquantity] = useState(0)
 
 
@@ -221,4 +221,4 @@ const Navbar = ({ reloadnavbar }) => {
     )
 }
 
-export default Navbar
+export default OrderSucessful

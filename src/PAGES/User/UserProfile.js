@@ -19,7 +19,7 @@ const UserProfile = () => {
 
     // alert(activepage)
   return (
-    <div className='userprofile'>
+    <div className='UserProfile'>
         <Navbar/>
         <SingleBanner 
         heading={`My Profile`}

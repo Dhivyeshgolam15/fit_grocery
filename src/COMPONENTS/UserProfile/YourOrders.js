@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import './YourOrders.css'
-import OrderSuccessful from '../Order/OrderSuccessful'
+import OrderSuccessful from '../Order/OrderSuccessfulProvider'
 import { useRecoilState } from 'recoil'
-import { orderSuccessfulProvider } from '../../Providers/OrderSuccessfulProvider'
 
 const YourOrders = () => {
 
@@ -57,7 +56,7 @@ const YourOrders = () => {
         }
     ]
     const [selectedorderid, setselectedorderid] = useState(0)
-    const [ordersuccesscont, setordersuccesscont] = useRecoilState(orderSuccessfulProvider)
+    const [ordersuccesscont, setordersuccesscont] = useRecoilState(OrderSuccessful)
     return (
         <div className='yourorders'>
             <h1 className='mainhead1'>Your Orders</h1>
